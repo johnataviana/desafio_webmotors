@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "346d668e-9a96-4519-b6e3-a2c01b0a4aab",
+		"name": "Desafio Webmotors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Recuperar marcas cadastradas na webmotors",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Make",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar modelos cadastradas na webmotors",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Model?MakeID=2",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Model"
+					],
+					"query": [
+						{
+							"key": "MakeID",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar versões cadastradas na webmotors",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Version?ModelID={{Modelo}}",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Version"
+					],
+					"query": [
+						{
+							"key": "ModelID",
+							"value": "{{Modelo}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar versões cadastradas na webmotors",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Vehicles?Page=1",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Vehicles"
+					],
+					"query": [
+						{
+							"key": "Page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

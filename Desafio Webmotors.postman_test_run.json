@@ -1,0 +1,174 @@
+{
+	"id": "e5a000c5-3a0a-466c-a52b-b64a5194a7a1",
+	"name": "Desafio Webmotors",
+	"timestamp": "2020-09-25T22:29:21.772Z",
+	"collection_id": "346d668e-9a96-4519-b6e3-a2c01b0a4aab",
+	"folder_id": 0,
+	"environment_id": "15aa00f5-5bda-4ba9-a130-c65e93ffb57e",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e3a19d62-7c0e-4b82-b762-0472b158908b",
+			"name": "Recuperar marcas cadastradas na webmotors",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				419,
+				159,
+				160,
+				162,
+				161,
+				158,
+				170,
+				166,
+				184,
+				172
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "06de9a2d-eacd-4fce-818a-e566043301b7",
+			"name": "Recuperar modelos cadastradas na webmotors",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				159,
+				161,
+				158,
+				182,
+				158,
+				159,
+				158,
+				168,
+				172,
+				160
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5fb5d46c-b7d9-4b50-a716-61121e99a1b8",
+			"name": "Recuperar versões cadastradas na webmotors",
+			"time": 158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				185,
+				164,
+				159,
+				162,
+				160,
+				161,
+				160,
+				161,
+				158,
+				158
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "4165a6fd-e638-4acb-84f1-ab4a1ed23ee7",
+			"name": "Recuperar versões cadastradas na webmotors",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				182,
+				163,
+				181,
+				160,
+				161,
+				162,
+				158,
+				160,
+				160,
+				160
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 6821,
+	"collection": {
+		"requests": [
+			{
+				"id": "e3a19d62-7c0e-4b82-b762-0472b158908b",
+				"method": "GET"
+			},
+			{
+				"id": "06de9a2d-eacd-4fce-818a-e566043301b7",
+				"method": "GET"
+			},
+			{
+				"id": "5fb5d46c-b7d9-4b50-a716-61121e99a1b8",
+				"method": "GET"
+			},
+			{
+				"id": "4165a6fd-e638-4acb-84f1-ab4a1ed23ee7",
+				"method": "GET"
+			}
+		]
+	}
+}
