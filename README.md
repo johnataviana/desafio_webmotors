@@ -8,3 +8,6 @@ Importar no Postman aqruivo com todas API's do Desafio Webmotors.postman_collect
 Automatização do Teste via postman usa variaveis de ambiente para configuração de marca e modelo Desafio Webmotors.postman_test_run.json.
 
 Automatização via Jmeter pode simular quantos usuarios e requisições necessárias.
+
+
+BDD dos cenarios de testes (Johnata Viana - Desafio Webmotors.pdf)
